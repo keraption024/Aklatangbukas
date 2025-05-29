@@ -1,0 +1,243 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Aklatan Bukas</title> <style>
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('Screenshot (220).png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.banner img 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 100px;
+    height: auto;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 2em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+button span {
+    background-color: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover span {
+    transform: translateY(0);
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    animation: moveLine 2s linear infinite;
+}
+
+@keyframes moveLine {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+.main-container {
+    text-align: left;
+}
+
+.blue-box {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.blue-box img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black-text {
+    color: black;
+}
+.footer {
+    padding-top: 25px;
+    color: #dedede;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    display: block;
+    background: #35408e;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="maiklingkuwento.html">MAIKLING KUWENTO</a></li>
+            <li><a href="nobela.html">NOBELA</a></li>
+            <li><a href="alamat.html">ALAMAT</a></li>
+            <li><a href="epiko.html">EPIKO</a></li>
+            <li><a href="parabula.html">PARABULA</a></li>
+            <li><a href="others.html">OTHERS</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <img src="logo.png" alt="Website Logo"> 
+        <div class="banner-content">
+            <h1 tyle="font-family:'Trancity">AKLATANG BUKAS</h1>
+            <p style="font-family: 'ecopark demo">HALINAT TUKLASIN ANG ATING SARILING MGA AKDA</p>
+            <button><span></span>About us</button>
+            <button><span></span>Samples</button>
+        </div>
+        <div class="horizontal-line"></div>
+    </div>
+
+    <div class="blue-box">
+        <h3 class="black-text" style="font-size:40px;">PAGLUNSAD NG WIKANG FILIPINO</h3>
+        <p class="black-text">Nakasama sa 1937 constitution ang Wikang Filipino bilang pambansang wika ng ating bansa.</p>
+        <p class="black-text">Sa pamumuno ng tinaguriang ama ng Wikang Filipino na si Dating Pangulong Manuel L. Quezon.</p>
+        <img src="download (2).jpg" alt="Image of Manuel L. Quezon">
+    </div>
+
+    <div class="blue-box">
+        <h3 class="black-text" style="font-size:40px;">MABUHAY ANG PANITIKANG FILIPINO</h3>
+        <p class="black-text" style="font-size:25px;">Pahalagaan natin ang panitikang Filipino</p>
+        <p class="black-text" style="font-family: 'Bagwis_Baybayin_Font', sans-serif;">
+            Pahalagaan natin ang panitikang Filipino para sa Diyos at Pilipinas Nating Mahal.
+        </p>
+    </div>
+
+</body>
+</html>
